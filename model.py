@@ -205,7 +205,7 @@ class DroneSwarmModel(Model):
         uid = 0
 
         # Place hubs (by default place first hub at (0,0); add opposite corner if multiple)
-        hubs_positions = [(0, 0)]
+        hubs_positions = [(2, 1)]
         if self.n_hubs > 1:
             hubs_positions.append((width - 1, height - 1))
         for pos in hubs_positions[:self.n_hubs]:

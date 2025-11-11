@@ -63,7 +63,7 @@ def agent_portrayal(agent):
 
 
 # --- Visualization modules ---
-grid = CanvasGrid(agent_portrayal, 20, 20, 500, 500)  # ✅ more compact, fits screen better
+grid = CanvasGrid(agent_portrayal, 20, 20, 700, 700)  # ✅ more compact, fits screen better
 
 chart = ChartModule(
     [
